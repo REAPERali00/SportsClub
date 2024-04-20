@@ -1,0 +1,103 @@
+# .gitignore template for .NET projects
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+*.pidb
+*.workspace
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]est[Rr]esult*/
+*.sln.cache
+*.visualstate.xml
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JustCode is a .NET coding add-in
+.JustCode
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# MSTest test Results
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+
+# Visual Studio 2022 cache/options directory
+.vs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Files built by Visual Studio
+*.pidb
+*.svclog
+*.mdmp
+
+# Chutzpah Test files
+_Chutzpah*
+
+# StyleCop
+StyleCopReport.xml
+
+# Publish Web Output
+*.Publish.xml
+*.pubxml
+pubxml.bak/
+
+# NuGet Packages Directory
+packages/
+# Enable "restore packages" on NuGet to keep the directory up-to-date
+# https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# VS Code directories
+.vscode/
+
+# Node modules
+node_modules/
+
+# Azure DevOps pipeline cache
+pipeline-cache/
+
